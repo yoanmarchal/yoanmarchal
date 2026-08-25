@@ -14,10 +14,11 @@
 
 <br>
 
-Développeur web depuis 2009, actuellement chez RnD, où l'IA prend une place croissante
-dans nos projets. Je construis des plugins WordPress, des outils internes et des
-applications de bureau. Une préférence marquée pour le code simple, sans dépendance
-inutile, qui tourne encore dans cinq ans.
+Développeur web depuis 2009, actuellement chez RnD, où je construis des plugins
+WordPress, des outils internes et des applications de bureau. J'y pilote également
+l'interconnexion d'outils IA au sein de nos systèmes : orchestration d'API, d'agents
+et de workflows automatisés entre applications existantes. Une préférence marquée
+pour le code simple, sans dépendance inutile, qui tourne encore dans cinq ans.
 
 <br>
 
