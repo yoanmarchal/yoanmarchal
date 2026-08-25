@@ -37,10 +37,16 @@ dans cinq ans.
 ### Activité récente
 
 <!-- RECENT_PROJECTS:START -->
-_En attente de la première exécution du workflow `update-readme`._
+| Projet | Description | Langage | ★ | Dernier push |
+| --- | --- | --- | --- | --- |
+| [yoanmarchal](https://github.com/yoanmarchal/yoanmarchal) | — | — | 0 | aujourd'hui |
+| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | aujourd'hui |
+| [blog](https://github.com/yoanmarchal/blog) | — | `TypeScript` | 0 | il y a 2 j |
+| [Microplayer](https://github.com/yoanmarchal/Microplayer) | player mp3 minimalist - LESS / Js | `CSS` | 0 | il y a 3 j |
+| [villagecraft](https://github.com/yoanmarchal/villagecraft) | — | `TypeScript` | 0 | il y a 7 j |
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Mis à jour automatiquement · <!-- LAST_UPDATE:START -->—<!-- LAST_UPDATE:END --></sub>
+<sub>Mis à jour automatiquement · <!-- LAST_UPDATE:START -->25 août 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
