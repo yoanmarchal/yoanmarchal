@@ -1,7 +1,7 @@
 <h1 align="center">Yoan Marchal</h1>
 
 <p align="center">
-  Développeur web chez RnD · Limoges, France<br>
+  Développeur web chez <a href="https://www.linkedin.com/company/rnd/">RnD</a> · Limoges, France<br>
   <sub>PHP · WordPress · JavaScript</sub>
 </p>
 
@@ -14,9 +14,10 @@
 
 <br>
 
-Développeur web depuis 2009, actuellement chez RnD. Je construis des plugins WordPress,
-des outils internes et des applications de bureau. Une préférence marquée pour le code
-simple, sans dépendance inutile, qui tourne encore dans cinq ans.
+Développeur web depuis 2009, actuellement chez RnD, où l'IA prend une place croissante
+dans nos projets. Je construis des plugins WordPress, des outils internes et des
+applications de bureau. Une préférence marquée pour le code simple, sans dépendance
+inutile, qui tourne encore dans cinq ans.
 
 <br>
 
@@ -33,8 +34,8 @@ simple, sans dépendance inutile, qui tourne encore dans cinq ans.
   <img alt="Hono" src="https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white">
   <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white">
   <img alt="Vue.js" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white">
-  <img alt="jQuery" src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white">
   <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white">
+  <img alt="Claude" src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white">
   <img alt="Electron" src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white">
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
