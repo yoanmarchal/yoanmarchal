@@ -55,7 +55,13 @@ const repos = await api(
 );
 
 const recent = repos
-  .filter((r) => !r.fork && !r.archived && !r.private)
+  .filter(
+    (r) =>
+      !r.fork &&
+      !r.archived &&
+      !r.private &&
+      r.name.toLowerCase() !== USER.toLowerCase(),
+  )
   .slice(0, COUNT);
 
 const rows = recent
