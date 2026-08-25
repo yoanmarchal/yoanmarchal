@@ -15,9 +15,9 @@
 <br>
 
 Web developer since 2009, currently at RnD, building WordPress plugins, internal
-tools, and desktop applications. I also lead the interconnection of AI tools across
-our systems: orchestrating APIs, agents, and automated workflows between existing
-applications.
+tools, and desktop applications. I'm also hands-on on the interconnection of AI
+tools across our systems: orchestrating APIs, agents, and automated workflows
+between existing applications.
 
 <sub>_"Perfection is achieved, not when there is nothing more to add, but when there
 is nothing left to take away." — Antoine de Saint-Exupéry_</sub>
