@@ -1,4 +1,4 @@
-name: Serpent des contributions
+name: Contribution snake
 
 on:
   schedule:
@@ -15,7 +15,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Générer les SVG
+      - name: Generate SVGs
         uses: Platane/snk@v3
         id: snake
         with:
@@ -24,7 +24,7 @@ jobs:
             dist/snake.svg?palette=github-light
             dist/snake-dark.svg?palette=github-dark
 
-      - name: Publier sur la branche output
+      - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

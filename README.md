@@ -1,7 +1,7 @@
 <h1 align="center">Yoan Marchal</h1>
 
 <p align="center">
-  Développeur web chez <a href="https://www.linkedin.com/company/rnd/">RnD</a> · Limoges, France<br>
+  Developer at <a href="https://www.linkedin.com/company/rnd/">RnD</a> · Limoges, France<br>
   <sub>PHP · WordPress · JavaScript</sub>
 </p>
 
@@ -14,11 +14,13 @@
 
 <br>
 
-Développeur web depuis 2009, actuellement chez RnD, où je construis des plugins
-WordPress, des outils internes et des applications de bureau. J'y pilote également
-l'interconnexion d'outils IA au sein de nos systèmes : orchestration d'API, d'agents
-et de workflows automatisés entre applications existantes. Une préférence marquée
-pour le code simple, sans dépendance inutile, qui tourne encore dans cinq ans.
+Web developer since 2009, currently at RnD, building WordPress plugins, internal
+tools, and desktop applications. I also lead the interconnection of AI tools across
+our systems: orchestrating APIs, agents, and automated workflows between existing
+applications.
+
+<sub>_"Perfection is achieved, not when there is nothing more to add, but when there
+is nothing left to take away." — Antoine de Saint-Exupéry_</sub>
 
 <br>
 
@@ -49,42 +51,42 @@ pour le code simple, sans dépendance inutile, qui tourne encore dans cinq ans.
 
 <br>
 
-### Activité récente
+### Recent activity
 
 <!-- RECENT_PROJECTS:START -->
-| Projet | Description | Langage | ★ | Dernier push |
+| Project | Description | Language | ★ | Last push |
 | --- | --- | --- | --- | --- |
-| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | aujourd'hui |
-| [blog](https://github.com/yoanmarchal/blog) | — | `TypeScript` | 0 | il y a 2 j |
-| [Microplayer](https://github.com/yoanmarchal/Microplayer) | player mp3 minimalist - LESS / Js | `CSS` | 0 | il y a 3 j |
-| [villagecraft](https://github.com/yoanmarchal/villagecraft) | — | `TypeScript` | 0 | il y a 7 j |
-| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | il y a 10 j |
+| [blog](https://github.com/yoanmarchal/blog) | — | `TypeScript` | 0 | today |
+| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | today |
+| [Microplayer](https://github.com/yoanmarchal/Microplayer) | player mp3 minimalist - LESS / Js | `CSS` | 0 | 3d ago |
+| [villagecraft](https://github.com/yoanmarchal/villagecraft) | — | `TypeScript` | 0 | 7d ago |
+| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | 10d ago |
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Mis à jour automatiquement · <!-- LAST_UPDATE:START -->25 août 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->August 25, 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
-### Statistiques
+### Statistics
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yoanmarchal&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&count_private=true&bg_color=00000000&text_color=8b949e&icon_color=8b949e&ring_color=8b949e">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yoanmarchal&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&count_private=true&bg_color=00000000&text_color=59636e&icon_color=59636e&ring_color=59636e">
-    <img alt="Statistiques GitHub de Yoan Marchal" height="150" src="https://github-readme-stats.vercel.app/api?username=yoanmarchal&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&count_private=true&bg_color=00000000">
+    <img alt="Yoan Marchal's GitHub stats" height="150" src="https://github-readme-stats.vercel.app/api?username=yoanmarchal&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&count_private=true&bg_color=00000000">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yoanmarchal&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000&text_color=8b949e">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yoanmarchal&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000&text_color=59636e">
-    <img alt="Langages les plus utilisés" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoanmarchal&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000">
+    <img alt="Most used languages" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoanmarchal&layout=compact&langs_count=8&hide_border=true&hide_title=true&bg_color=00000000">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=yoanmarchal&hide_border=true&background=00000000&stroke=30363d&ring=8b949e&fire=e6edf3&currStreakNum=e6edf3&sideNums=8b949e&currStreakLabel=8b949e&sideLabels=8b949e&dates=6e7681&locale=fr">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=yoanmarchal&hide_border=true&background=00000000&stroke=d1d9e0&ring=59636e&fire=1f2328&currStreakNum=1f2328&sideNums=59636e&currStreakLabel=59636e&sideLabels=59636e&dates=818b98&locale=fr">
-    <img alt="Série de contributions" height="150" src="https://streak-stats.demolab.com?user=yoanmarchal&hide_border=true&background=00000000&locale=fr">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=yoanmarchal&hide_border=true&background=00000000&stroke=30363d&ring=8b949e&fire=e6edf3&currStreakNum=e6edf3&sideNums=8b949e&currStreakLabel=8b949e&sideLabels=8b949e&dates=6e7681">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=yoanmarchal&hide_border=true&background=00000000&stroke=d1d9e0&ring=59636e&fire=1f2328&currStreakNum=1f2328&sideNums=59636e&currStreakLabel=59636e&sideLabels=59636e&dates=818b98">
+    <img alt="Contribution streak" height="150" src="https://streak-stats.demolab.com?user=yoanmarchal&hide_border=true&background=00000000">
   </picture>
 </p>
 
@@ -95,5 +97,5 @@ pour le code simple, sans dépendance inutile, qui tourne encore dans cinq ans.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/output/snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/output/snake.svg">
-  <img alt="Serpent parcourant la grille de contributions" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/output/snake.svg">
+  <img alt="Snake crawling through the contribution graph" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/output/snake.svg">
 </picture>
