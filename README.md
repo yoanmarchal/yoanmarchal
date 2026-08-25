@@ -1,8 +1,8 @@
 <h1 align="center">Yoan Marchal</h1>
 
 <p align="center">
-  Développeur web · Limoges, France<br>
-  <sub>WordPress · PHP · TypeScript</sub>
+  Développeur web chez RnD · Limoges, France<br>
+  <sub>PHP · WordPress · JavaScript</sub>
 </p>
 
 <p align="center">
@@ -14,9 +14,9 @@
 
 <br>
 
-Je construis des plugins WordPress, des outils internes et des applications de bureau.
-Une préférence marquée pour le code simple, sans dépendance inutile, qui tourne encore
-dans cinq ans.
+Développeur web depuis 2009, actuellement chez RnD. Je construis des plugins WordPress,
+des outils internes et des applications de bureau. Une préférence marquée pour le code
+simple, sans dépendance inutile, qui tourne encore dans cinq ans.
 
 <br>
 
