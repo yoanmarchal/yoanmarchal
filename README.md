@@ -57,14 +57,14 @@ is nothing left to take away." — Antoine de Saint-Exupéry_</sub>
 <!-- RECENT_PROJECTS:START -->
 | Project | Description | Language | ★ | Last push |
 | --- | --- | --- | --- | --- |
-| [website](https://github.com/yoanmarchal/website) | — | `Vue` | 0 | today |
-| [gridsome-starter-netlifycms](https://github.com/yoanmarchal/gridsome-starter-netlifycms) | — | `Vue` | 0 | today |
-| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | yesterday |
-| [boostrap-ds](https://github.com/yoanmarchal/boostrap-ds) | — | `Pug` | 0 | 4d ago |
-| [blog](https://github.com/yoanmarchal/blog) | — | `TypeScript` | 0 | 4d ago |
+| [website](https://github.com/yoanmarchal/website) | — | `Vue` | 0 | yesterday |
+| [gridsome-starter-netlifycms](https://github.com/yoanmarchal/gridsome-starter-netlifycms) | — | `Vue` | 0 | yesterday |
+| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | 2d ago |
+| [boostrap-ds](https://github.com/yoanmarchal/boostrap-ds) | — | `Pug` | 0 | 5d ago |
+| [blog](https://github.com/yoanmarchal/blog) | — | `TypeScript` | 0 | 5d ago |
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->August 31, 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->September 1, 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
