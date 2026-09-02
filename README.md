@@ -57,14 +57,14 @@ is nothing left to take away." — Antoine de Saint-Exupéry_</sub>
 <!-- RECENT_PROJECTS:START -->
 | Project | Description | Language | ★ | Last push |
 | --- | --- | --- | --- | --- |
-| [website](https://github.com/yoanmarchal/website) | — | `Vue` | 0 | yesterday |
-| [gridsome-starter-netlifycms](https://github.com/yoanmarchal/gridsome-starter-netlifycms) | — | `Vue` | 0 | yesterday |
-| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | 2d ago |
-| [boostrap-ds](https://github.com/yoanmarchal/boostrap-ds) | — | `Pug` | 0 | 5d ago |
-| [blog](https://github.com/yoanmarchal/blog) | — | `TypeScript` | 0 | 5d ago |
+| [yoanmarchal.github.io](https://github.com/yoanmarchal/yoanmarchal.github.io) | MY github website | `JavaScript` | 0 | today |
+| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | today |
+| [Microplayer](https://github.com/yoanmarchal/Microplayer) | player mp3 minimalist - LESS / Js | `CSS` | 0 | today |
+| [gridsome-starter-netlifycms](https://github.com/yoanmarchal/gridsome-starter-netlifycms) | — | `Vue` | 0 | 2d ago |
+| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | 3d ago |
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->September 1, 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->September 2, 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
