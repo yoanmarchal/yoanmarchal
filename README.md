@@ -57,14 +57,14 @@ is nothing left to take away." — Antoine de Saint-Exupéry_</sub>
 <!-- RECENT_PROJECTS:START -->
 | Project | Description | Language | ★ | Last push |
 | --- | --- | --- | --- | --- |
-| [blog](https://github.com/yoanmarchal/blog) | — | `TypeScript` | 0 | today |
-| [es6-galerie](https://github.com/yoanmarchal/es6-galerie) | rollup es6 ie11 compat test | `JavaScript` | 0 | today |
-| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | yesterday |
-| [boostrap-ds](https://github.com/yoanmarchal/boostrap-ds) | — | `Pug` | 0 | 3d ago |
-| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | 3d ago |
+| [blog](https://github.com/yoanmarchal/blog) | — | `TypeScript` | 0 | yesterday |
+| [es6-galerie](https://github.com/yoanmarchal/es6-galerie) | rollup es6 ie11 compat test | `JavaScript` | 0 | yesterday |
+| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | 2d ago |
+| [boostrap-ds](https://github.com/yoanmarchal/boostrap-ds) | — | `Pug` | 0 | 4d ago |
+| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | 4d ago |
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->September 19, 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->September 20, 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
