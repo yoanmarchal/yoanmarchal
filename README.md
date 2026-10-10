@@ -58,13 +58,13 @@ is nothing left to take away." — Antoine de Saint-Exupéry_</sub>
 | Project | Description | Language | ★ | Last push |
 | --- | --- | --- | --- | --- |
 | [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | today |
-| [es6-galerie](https://github.com/yoanmarchal/es6-galerie) | rollup es6 ie11 compat test | `JavaScript` | 0 | yesterday |
-| [blog](https://github.com/yoanmarchal/blog) | — | `TypeScript` | 0 | 3d ago |
-| [boostrap-ds](https://github.com/yoanmarchal/boostrap-ds) | — | `Pug` | 0 | 3d ago |
-| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | 3d ago |
+| [blog](https://github.com/yoanmarchal/blog) | — | `TypeScript` | 0 | today |
+| [es6-galerie](https://github.com/yoanmarchal/es6-galerie) | rollup es6 ie11 compat test | `JavaScript` | 0 | 2d ago |
+| [boostrap-ds](https://github.com/yoanmarchal/boostrap-ds) | — | `Pug` | 0 | 4d ago |
+| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | 4d ago |
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->October 9, 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->October 10, 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
