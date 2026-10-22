@@ -58,13 +58,13 @@ is nothing left to take away." — Antoine de Saint-Exupéry_</sub>
 | Project | Description | Language | ★ | Last push |
 | --- | --- | --- | --- | --- |
 | [lotpix](https://github.com/yoanmarchal/lotpix) | Lotpix, bulk image optimizer: convert, compress and resize images in batches (WebP, AVIF, JPEG, PNG). Desktop app for Windows and Linux. | `Rust` | 0 | today |
-| [boostrap-ds](https://github.com/yoanmarchal/boostrap-ds) | — | `Pug` | 0 | today |
-| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | today |
-| [es6-galerie](https://github.com/yoanmarchal/es6-galerie) | rollup es6 ie11 compat test | `JavaScript` | 0 | today |
-| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | today |
+| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | yesterday |
+| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | yesterday |
+| [Edge-CMF](https://github.com/yoanmarchal/Edge-CMF) | — | `TypeScript` | 0 | 11d ago |
+| [villagecraft](https://github.com/yoanmarchal/villagecraft) | — | `TypeScript` | 0 | 17d ago |
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->October 21, 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->October 22, 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
