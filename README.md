@@ -57,14 +57,14 @@ is nothing left to take away." — Antoine de Saint-Exupéry_</sub>
 <!-- RECENT_PROJECTS:START -->
 | Project | Description | Language | ★ | Last push |
 | --- | --- | --- | --- | --- |
+| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | today |
+| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | today |
+| [vue-schema-form](https://github.com/yoanmarchal/vue-schema-form) | Schema-driven, fully typed forms for Vue 3 | `TypeScript` | 0 | today |
 | [lotpix](https://github.com/yoanmarchal/lotpix) | Lotpix, bulk image optimizer: convert, compress and resize images in batches (WebP, AVIF, JPEG, PNG). Desktop app for Windows and Linux. | `Rust` | 0 | today |
-| [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | yesterday |
-| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | yesterday |
-| [Edge-CMF](https://github.com/yoanmarchal/Edge-CMF) | — | `TypeScript` | 0 | 11d ago |
-| [villagecraft](https://github.com/yoanmarchal/villagecraft) | — | `TypeScript` | 0 | 17d ago |
+| [Edge-CMF](https://github.com/yoanmarchal/Edge-CMF) | — | `TypeScript` | 0 | 12d ago |
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->October 22, 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->October 23, 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
