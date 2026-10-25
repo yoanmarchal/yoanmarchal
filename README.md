@@ -58,13 +58,13 @@ is nothing left to take away." — Antoine de Saint-Exupéry_</sub>
 | Project | Description | Language | ★ | Last push |
 | --- | --- | --- | --- | --- |
 | [electron-image-converter](https://github.com/yoanmarchal/electron-image-converter) | — | `TypeScript` | 0 | today |
-| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | yesterday |
-| [vue-schema-form](https://github.com/yoanmarchal/vue-schema-form) | Schema-driven, fully typed forms for Vue 3 | `TypeScript` | 0 | yesterday |
-| [lotpix](https://github.com/yoanmarchal/lotpix) | Lotpix, bulk image optimizer: convert, compress and resize images in batches (WebP, AVIF, JPEG, PNG). Desktop app for Windows and Linux. | `Rust` | 0 | yesterday |
-| [Edge-CMF](https://github.com/yoanmarchal/Edge-CMF) | — | `TypeScript` | 0 | 13d ago |
+| [v-invoice](https://github.com/yoanmarchal/v-invoice) | WIP | `JavaScript` | 0 | 2d ago |
+| [vue-schema-form](https://github.com/yoanmarchal/vue-schema-form) | Schema-driven, fully typed forms for Vue 3 | `TypeScript` | 0 | 2d ago |
+| [lotpix](https://github.com/yoanmarchal/lotpix) | Lotpix, bulk image optimizer: convert, compress and resize images in batches (WebP, AVIF, JPEG, PNG). Desktop app for Windows and Linux. | `Rust` | 0 | 2d ago |
+| [Edge-CMF](https://github.com/yoanmarchal/Edge-CMF) | — | `TypeScript` | 0 | 14d ago |
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->October 24, 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->October 25, 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
