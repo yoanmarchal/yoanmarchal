@@ -51,9 +51,9 @@ something in it.</sub>
 <p align="center">
   <a href="https://github.com/yoanmarchal/villagecraft">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=dc26a611">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-light.svg?v=dc26a611">
-      <img alt="yoanmarchal/villagecraft" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=dc26a611" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=013d1142">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-light.svg?v=013d1142">
+      <img alt="yoanmarchal/villagecraft" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=013d1142" width="420">
     </picture>
   </a>
   <a href="https://github.com/yoanmarchal/yoanmarchal.github.io">
