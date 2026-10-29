@@ -6,36 +6,29 @@
  * not by repository push dates — so Renovate/Dependabot traffic never promotes
  * a repository I haven't touched myself.
  *
+ * The project cards are rendered here into assets/cards/ as plain SVG and
+ * committed with the README, so the profile never depends on a third-party
+ * card service being up.
+ *
  * Markers in README.md:
  *   <!-- RECENT_PROJECTS:START --> ... <!-- RECENT_PROJECTS:END -->
  *   <!-- LAST_UPDATE:START --> ... <!-- LAST_UPDATE:END -->
  */
 
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, unlink, writeFile } from "node:fs/promises";
+import { repoCard } from "./cards.mjs";
 
 const USER = process.env.GH_USER || "yoanmarchal";
 const TOKEN = process.env.GITHUB_TOKEN;
 const README = new URL("../README.md", import.meta.url);
+const CARDS_DIR = new URL("../assets/cards/", import.meta.url);
+const CARDS_PATH = "assets/cards";
+const RAW = `https://raw.githubusercontent.com/${USER}/${USER}/main`;
 
 /** Number of repository cards rendered (2 per row). */
 const CARDS = 4;
 /** Commits scanned, newest first. */
 const SCAN = 100;
-
-const CARD_THEME = {
-  dark: {
-    title_color: "e6edf3",
-    text_color: "8b949e",
-    icon_color: "6366f1",
-    border_color: "30363d",
-  },
-  light: {
-    title_color: "1f2328",
-    text_color: "59636e",
-    icon_color: "6366f1",
-    border_color: "d1d9e0",
-  },
-};
 
 /** Commits that exist because of a bot, not because of me. */
 const BOT_LOGIN = /\[bot\]$/i;
@@ -61,9 +54,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function api(path, { attempts = 3 } = {}) {
   let lastError;
   for (let i = 1; i <= attempts; i++) {
-    const res = await fetch(`https://api.github.com${path}`, {
-      headers: HEADERS,
-    });
+    const res = await fetch(`https://api.github.com${path}`, { headers: HEADERS });
     if (res.ok) return res.json();
     lastError = new Error(`GitHub API ${res.status} on ${path}`);
     // Secondary rate limit on the search API: wait and retry.
@@ -99,49 +90,25 @@ function relativeDate(iso) {
   return `${years}y ago`;
 }
 
-function pinUrl(owner, repo, theme) {
-  const params = new URLSearchParams({
-    username: owner,
-    repo,
-    hide_border: "true",
-    bg_color: "00000000",
-    show_owner: owner.toLowerCase() === USER.toLowerCase() ? "false" : "true",
-    description_lines_count: "2",
-    ...CARD_THEME[theme],
-  });
-  return `https://github-readme-stats.vercel.app/api/pin/?${params}`;
-}
-
-function card({ owner, repo, commits, last }) {
-  const href = `https://github.com/${owner}/${repo}`;
-  const plural = commits === 1 ? "commit" : "commits";
-  return [
-    `      <a href="${href}">`,
-    `        <picture>`,
-    `          <source media="(prefers-color-scheme: dark)" srcset="${pinUrl(owner, repo, "dark")}">`,
-    `          <source media="(prefers-color-scheme: light)" srcset="${pinUrl(owner, repo, "light")}">`,
-    `          <img alt="${owner}/${repo}" src="${pinUrl(owner, repo, "dark")}">`,
-    `        </picture>`,
-    `      </a>`,
-    `      <br>`,
-    `      <sub><b>${commits}</b> ${plural} by me · last ${relativeDate(last)}</sub>`,
-  ].join("\n");
-}
-
 function replaceSection(content, name, body) {
   const re = new RegExp(`(<!-- ${name}:START -->)[\\s\\S]*?(<!-- ${name}:END -->)`);
   if (!re.test(content)) throw new Error(`Markers ${name} not found in README.`);
   return content.replace(re, `$1${body}$2`);
 }
 
-// ---------------------------------------------------------------------------
+/** Cards are regenerated in place, so the camo cache needs a changing URL. */
+function cacheTag() {
+  return new Date().toISOString().slice(0, 10).replace(/-/g, "");
+}
+
+// --- collect the repositories I actually committed to -----------------------
 
 const search = await api(
   `/search/commits?q=${encodeURIComponent(`author:${USER}`)}` +
     `&sort=author-date&order=desc&per_page=${SCAN}`,
 );
 
-const repos = new Map();
+const seen = new Map();
 for (const item of search.items ?? []) {
   if (!isMine(item)) continue;
   const { full_name: fullName, fork, private: isPrivate } = item.repository;
@@ -149,20 +116,71 @@ for (const item of search.items ?? []) {
   if (fullName.toLowerCase() === `${USER}/${USER}`.toLowerCase()) continue;
 
   const date = item.commit.author.date;
-  const entry = repos.get(fullName) ?? {
+  const entry = seen.get(fullName) ?? {
+    fullName,
     owner: item.repository.owner.login,
-    repo: item.repository.name,
+    name: item.repository.name,
     commits: 0,
     last: date,
   };
   entry.commits += 1;
   if (date > entry.last) entry.last = date;
-  repos.set(fullName, entry);
+  seen.set(fullName, entry);
 }
 
-const featured = [...repos.values()]
+const featured = [...seen.values()]
   .sort((a, b) => b.last.localeCompare(a.last))
   .slice(0, CARDS);
+
+// --- render one SVG card per repository, per colour scheme ------------------
+
+await mkdir(CARDS_DIR, { recursive: true });
+const expected = new Set();
+const tag = cacheTag();
+
+for (const repo of featured) {
+  const meta = await api(`/repos/${repo.fullName}`);
+  const model = {
+    name: repo.name,
+    description: meta.description,
+    language: meta.language,
+    stars: meta.stargazers_count,
+    commits: repo.commits,
+    relative: relativeDate(repo.last),
+  };
+  const slug = repo.name.replace(/[^a-zA-Z0-9._-]/g, "-");
+  for (const mode of ["dark", "light"]) {
+    const file = `${slug}-${mode}.svg`;
+    expected.add(file);
+    await writeFile(new URL(file, CARDS_DIR), repoCard(model, mode), "utf8");
+  }
+  repo.slug = slug;
+}
+
+// Drop cards for repositories that dropped out of the list.
+for (const file of await readdir(CARDS_DIR)) {
+  if (file.endsWith(".svg") && !expected.has(file)) {
+    await unlink(new URL(file, CARDS_DIR));
+  }
+}
+
+// --- rebuild the README section --------------------------------------------
+
+function cell(repo) {
+  const href = `https://github.com/${repo.fullName}`;
+  const src = (mode) => `${RAW}/${CARDS_PATH}/${repo.slug}-${mode}.svg?v=${tag}`;
+  return [
+    `    <td width="50%" valign="top">`,
+    `      <a href="${href}">`,
+    `        <picture>`,
+    `          <source media="(prefers-color-scheme: dark)" srcset="${src("dark")}">`,
+    `          <source media="(prefers-color-scheme: light)" srcset="${src("light")}">`,
+    `          <img alt="${repo.fullName}" src="${src("dark")}" width="100%">`,
+    `        </picture>`,
+    `      </a>`,
+    `    </td>`,
+  ].join("\n");
+}
 
 let body;
 if (featured.length === 0) {
@@ -170,11 +188,7 @@ if (featured.length === 0) {
 } else {
   const rows = [];
   for (let i = 0; i < featured.length; i += 2) {
-    const cells = featured
-      .slice(i, i + 2)
-      .map((r) => `    <td width="50%" valign="top" align="center">\n${card(r)}\n    </td>`)
-      .join("\n");
-    rows.push(`  <tr>\n${cells}\n  </tr>`);
+    rows.push(`  <tr>\n${featured.slice(i, i + 2).map(cell).join("\n")}\n  </tr>`);
   }
   body = `\n<table>\n${rows.join("\n")}\n</table>\n`;
 }
@@ -190,6 +204,6 @@ content = replaceSection(content, "LAST_UPDATE", stamp);
 await writeFile(README, content);
 
 console.log(
-  `README updated · ${featured.length} repositories · ` +
+  `README updated · ${featured.length} cards · ` +
     `${search.items?.length ?? 0} commits scanned · ${stamp}`,
 );

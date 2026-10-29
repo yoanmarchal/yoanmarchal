@@ -34,51 +34,43 @@ something in it.</sub>
 <!-- RECENT_PROJECTS:START -->
 <table>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="top">
       <a href="https://github.com/yoanmarchal/lotpix">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=lotpix&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=e6edf3&text_color=8b949e&icon_color=6366f1&border_color=30363d">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=lotpix&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=1f2328&text_color=59636e&icon_color=6366f1&border_color=d1d9e0">
-          <img alt="yoanmarchal/lotpix" src="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=lotpix&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=e6edf3&text_color=8b949e&icon_color=6366f1&border_color=30363d">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=20261029">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-light.svg?v=20261029">
+          <img alt="yoanmarchal/lotpix" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=20261029" width="100%">
         </picture>
       </a>
-      <br>
-      <sub><b>32</b> commits by me · last today</sub>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="top">
       <a href="https://github.com/yoanmarchal/vue-schema-form">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=vue-schema-form&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=e6edf3&text_color=8b949e&icon_color=6366f1&border_color=30363d">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=vue-schema-form&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=1f2328&text_color=59636e&icon_color=6366f1&border_color=d1d9e0">
-          <img alt="yoanmarchal/vue-schema-form" src="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=vue-schema-form&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=e6edf3&text_color=8b949e&icon_color=6366f1&border_color=30363d">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-dark.svg?v=20261029">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-light.svg?v=20261029">
+          <img alt="yoanmarchal/vue-schema-form" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-dark.svg?v=20261029" width="100%">
         </picture>
       </a>
-      <br>
-      <sub><b>8</b> commits by me · last 7d ago</sub>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="top">
       <a href="https://github.com/yoanmarchal/villagecraft">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=villagecraft&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=e6edf3&text_color=8b949e&icon_color=6366f1&border_color=30363d">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=villagecraft&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=1f2328&text_color=59636e&icon_color=6366f1&border_color=d1d9e0">
-          <img alt="yoanmarchal/villagecraft" src="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=villagecraft&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=e6edf3&text_color=8b949e&icon_color=6366f1&border_color=30363d">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=20261029">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-light.svg?v=20261029">
+          <img alt="yoanmarchal/villagecraft" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=20261029" width="100%">
         </picture>
       </a>
-      <br>
-      <sub><b>16</b> commits by me · last 1mo ago</sub>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="top">
       <a href="https://github.com/yoanmarchal/yoanmarchal.github.io">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=yoanmarchal.github.io&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=e6edf3&text_color=8b949e&icon_color=6366f1&border_color=30363d">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=yoanmarchal.github.io&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=1f2328&text_color=59636e&icon_color=6366f1&border_color=d1d9e0">
-          <img alt="yoanmarchal/yoanmarchal.github.io" src="https://github-readme-stats.vercel.app/api/pin/?username=yoanmarchal&repo=yoanmarchal.github.io&hide_border=true&bg_color=00000000&show_owner=false&description_lines_count=2&title_color=e6edf3&text_color=8b949e&icon_color=6366f1&border_color=30363d">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=20261029">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-light.svg?v=20261029">
+          <img alt="yoanmarchal/yoanmarchal.github.io" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=20261029" width="100%">
         </picture>
       </a>
-      <br>
-      <sub><b>18</b> commits by me · last 1mo ago</sub>
     </td>
   </tr>
 </table>
