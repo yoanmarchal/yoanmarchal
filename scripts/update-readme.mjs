@@ -15,8 +15,9 @@
  *   <!-- LAST_UPDATE:START --> ... <!-- LAST_UPDATE:END -->
  */
 
+import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, unlink, writeFile } from "node:fs/promises";
-import { repoCard } from "./cards.mjs";
+import { repoCard, CARD_CANVAS_WIDTH } from "./cards.mjs";
 
 const USER = process.env.GH_USER || "yoanmarchal";
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -96,9 +97,13 @@ function replaceSection(content, name, body) {
   return content.replace(re, `$1${body}$2`);
 }
 
-/** Cards are regenerated in place, so the camo cache needs a changing URL. */
-function cacheTag() {
-  return new Date().toISOString().slice(0, 10).replace(/-/g, "");
+/**
+ * Cards are rewritten at the same path every run, and GitHub's image proxy
+ * caches by URL — so each card carries a short hash of its own contents.
+ * The URL then changes exactly when the card does, and not otherwise.
+ */
+function contentTag(...parts) {
+  return createHash("sha1").update(parts.join("\0")).digest("hex").slice(0, 8);
 }
 
 // --- collect the repositories I actually committed to -----------------------
@@ -136,7 +141,6 @@ const featured = [...seen.values()]
 
 await mkdir(CARDS_DIR, { recursive: true });
 const expected = new Set();
-const tag = cacheTag();
 
 for (const repo of featured) {
   const meta = await api(`/repos/${repo.fullName}`);
@@ -149,12 +153,15 @@ for (const repo of featured) {
     relative: relativeDate(repo.last),
   };
   const slug = repo.name.replace(/[^a-zA-Z0-9._-]/g, "-");
+  const rendered = {};
   for (const mode of ["dark", "light"]) {
     const file = `${slug}-${mode}.svg`;
+    rendered[mode] = repoCard(model, mode);
     expected.add(file);
-    await writeFile(new URL(file, CARDS_DIR), repoCard(model, mode), "utf8");
+    await writeFile(new URL(file, CARDS_DIR), rendered[mode], "utf8");
   }
   repo.slug = slug;
+  repo.tag = contentTag(rendered.dark, rendered.light);
 }
 
 // Drop cards for repositories that dropped out of the list.
@@ -166,19 +173,17 @@ for (const file of await readdir(CARDS_DIR)) {
 
 // --- rebuild the README section --------------------------------------------
 
-function cell(repo) {
+function cardLink(repo) {
   const href = `https://github.com/${repo.fullName}`;
-  const src = (mode) => `${RAW}/${CARDS_PATH}/${repo.slug}-${mode}.svg?v=${tag}`;
+  const src = (mode) => `${RAW}/${CARDS_PATH}/${repo.slug}-${mode}.svg?v=${repo.tag}`;
   return [
-    `    <td width="50%" valign="top">`,
-    `      <a href="${href}">`,
-    `        <picture>`,
-    `          <source media="(prefers-color-scheme: dark)" srcset="${src("dark")}">`,
-    `          <source media="(prefers-color-scheme: light)" srcset="${src("light")}">`,
-    `          <img alt="${repo.fullName}" src="${src("dark")}" width="100%">`,
-    `        </picture>`,
-    `      </a>`,
-    `    </td>`,
+    `  <a href="${href}">`,
+    `    <picture>`,
+    `      <source media="(prefers-color-scheme: dark)" srcset="${src("dark")}">`,
+    `      <source media="(prefers-color-scheme: light)" srcset="${src("light")}">`,
+    `      <img alt="${repo.fullName}" src="${src("dark")}" width="${CARD_CANVAS_WIDTH}">`,
+    `    </picture>`,
+    `  </a>`,
   ].join("\n");
 }
 
@@ -186,11 +191,15 @@ let body;
 if (featured.length === 0) {
   body = "\n_No public commit found in the last scan._\n";
 } else {
+  // Plain inline images in centred paragraphs: a <table> would inherit
+  // GitHub's cell borders and padding, which cannot be overridden.
   const rows = [];
   for (let i = 0; i < featured.length; i += 2) {
-    rows.push(`  <tr>\n${featured.slice(i, i + 2).map(cell).join("\n")}\n  </tr>`);
+    rows.push(
+      `<p align="center">\n${featured.slice(i, i + 2).map(cardLink).join("\n")}\n</p>`,
+    );
   }
-  body = `\n<table>\n${rows.join("\n")}\n</table>\n`;
+  body = `\n${rows.join("\n")}\n`;
 }
 
 const stamp = new Intl.DateTimeFormat("en-GB", {
