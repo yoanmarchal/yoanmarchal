@@ -35,9 +35,9 @@ something in it.</sub>
 <p align="center">
   <a href="https://github.com/yoanmarchal/lotpix">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=0dbedfa7">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-light.svg?v=0dbedfa7">
-      <img alt="yoanmarchal/lotpix" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=0dbedfa7" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=aa17e49f">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-light.svg?v=aa17e49f">
+      <img alt="yoanmarchal/lotpix" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=aa17e49f" width="420">
     </picture>
   </a>
   <a href="https://github.com/yoanmarchal/vue-schema-form">
@@ -51,9 +51,9 @@ something in it.</sub>
 <p align="center">
   <a href="https://github.com/yoanmarchal/villagecraft">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=013d1142">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-light.svg?v=013d1142">
-      <img alt="yoanmarchal/villagecraft" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=013d1142" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=ac9716d8">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-light.svg?v=ac9716d8">
+      <img alt="yoanmarchal/villagecraft" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=ac9716d8" width="420">
     </picture>
   </a>
   <a href="https://github.com/yoanmarchal/yoanmarchal.github.io">
@@ -66,7 +66,7 @@ something in it.</sub>
 </p>
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->29 October 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->30 October 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
