@@ -33,40 +33,40 @@ something in it.</sub>
 
 <!-- RECENT_PROJECTS:START -->
 <p align="center">
-  <a href="https://github.com/yoanmarchal/lotpix">
+  <a href="https://github.com/yoanmarchal/yoanmarchal.github.io">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=38876a77">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-light.svg?v=38876a77">
-      <img alt="yoanmarchal/lotpix" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=38876a77" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=f76b52d3">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-light.svg?v=f76b52d3">
+      <img alt="yoanmarchal/yoanmarchal.github.io" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=f76b52d3" width="420">
     </picture>
   </a>
-  <a href="https://github.com/yoanmarchal/vue-schema-form">
+  <a href="https://github.com/yoanmarchal/lotpix">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-dark.svg?v=9c39b9d8">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-light.svg?v=9c39b9d8">
-      <img alt="yoanmarchal/vue-schema-form" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-dark.svg?v=9c39b9d8" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=244beef7">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-light.svg?v=244beef7">
+      <img alt="yoanmarchal/lotpix" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=244beef7" width="420">
     </picture>
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/yoanmarchal/villagecraft">
+  <a href="https://github.com/yoanmarchal/vue-schema-form">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=ac9716d8">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-light.svg?v=ac9716d8">
-      <img alt="yoanmarchal/villagecraft" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=ac9716d8" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-dark.svg?v=df09da18">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-light.svg?v=df09da18">
+      <img alt="yoanmarchal/vue-schema-form" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-dark.svg?v=df09da18" width="420">
     </picture>
   </a>
-  <a href="https://github.com/yoanmarchal/yoanmarchal.github.io">
+  <a href="https://github.com/yoanmarchal/villagecraft">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=9da8244a">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-light.svg?v=9da8244a">
-      <img alt="yoanmarchal/yoanmarchal.github.io" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=9da8244a" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=b4eb41e6">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-light.svg?v=b4eb41e6">
+      <img alt="yoanmarchal/villagecraft" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=b4eb41e6" width="420">
     </picture>
   </a>
 </p>
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->31 October 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->1 November 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
