@@ -35,38 +35,38 @@ something in it.</sub>
 <p align="center">
   <a href="https://github.com/yoanmarchal/yoanmarchal.github.io">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=a9239815">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-light.svg?v=a9239815">
-      <img alt="yoanmarchal/yoanmarchal.github.io" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=a9239815" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=bee114b5">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-light.svg?v=bee114b5">
+      <img alt="yoanmarchal/yoanmarchal.github.io" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=bee114b5" width="420">
     </picture>
   </a>
   <a href="https://github.com/yoanmarchal/test-content">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-dark.svg?v=dc259761">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-light.svg?v=dc259761">
-      <img alt="yoanmarchal/test-content" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-dark.svg?v=dc259761" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-dark.svg?v=a2aa5ed9">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-light.svg?v=a2aa5ed9">
+      <img alt="yoanmarchal/test-content" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-dark.svg?v=a2aa5ed9" width="420">
     </picture>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/yoanmarchal/lotpix">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=6771cfe2">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-light.svg?v=6771cfe2">
-      <img alt="yoanmarchal/lotpix" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=6771cfe2" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=4189dc6f">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-light.svg?v=4189dc6f">
+      <img alt="yoanmarchal/lotpix" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/lotpix-dark.svg?v=4189dc6f" width="420">
     </picture>
   </a>
   <a href="https://github.com/yoanmarchal/vue-schema-form">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-dark.svg?v=e2d4be92">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-light.svg?v=e2d4be92">
-      <img alt="yoanmarchal/vue-schema-form" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-dark.svg?v=e2d4be92" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-dark.svg?v=64ee15f5">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-light.svg?v=64ee15f5">
+      <img alt="yoanmarchal/vue-schema-form" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/vue-schema-form-dark.svg?v=64ee15f5" width="420">
     </picture>
   </a>
 </p>
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->6 November 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->7 November 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
