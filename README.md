@@ -35,38 +35,38 @@ something in it.</sub>
 <p align="center">
   <a href="https://github.com/yoanmarchal/villagecraft">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=c3ac534e">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-light.svg?v=c3ac534e">
-      <img alt="yoanmarchal/villagecraft" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=c3ac534e" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=d3e0ecbc">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-light.svg?v=d3e0ecbc">
+      <img alt="yoanmarchal/villagecraft" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/villagecraft-dark.svg?v=d3e0ecbc" width="420">
     </picture>
   </a>
   <a href="https://github.com/yoanmarchal/github-oauth-provider">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/github-oauth-provider-dark.svg?v=519ac3f6">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/github-oauth-provider-light.svg?v=519ac3f6">
-      <img alt="yoanmarchal/github-oauth-provider" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/github-oauth-provider-dark.svg?v=519ac3f6" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/github-oauth-provider-dark.svg?v=e8bccc87">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/github-oauth-provider-light.svg?v=e8bccc87">
+      <img alt="yoanmarchal/github-oauth-provider" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/github-oauth-provider-dark.svg?v=e8bccc87" width="420">
     </picture>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/yoanmarchal/test-content">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-dark.svg?v=681ae597">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-light.svg?v=681ae597">
-      <img alt="yoanmarchal/test-content" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-dark.svg?v=681ae597" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-dark.svg?v=b5cacf8c">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-light.svg?v=b5cacf8c">
+      <img alt="yoanmarchal/test-content" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/test-content-dark.svg?v=b5cacf8c" width="420">
     </picture>
   </a>
   <a href="https://github.com/yoanmarchal/yoanmarchal.github.io">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=d081353c">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-light.svg?v=d081353c">
-      <img alt="yoanmarchal/yoanmarchal.github.io" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=d081353c" width="420">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=f289d7e4">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-light.svg?v=f289d7e4">
+      <img alt="yoanmarchal/yoanmarchal.github.io" src="https://raw.githubusercontent.com/yoanmarchal/yoanmarchal/main/assets/cards/yoanmarchal.github.io-dark.svg?v=f289d7e4" width="420">
     </picture>
   </a>
 </p>
 <!-- RECENT_PROJECTS:END -->
 
-<sub>Automatically updated · <!-- LAST_UPDATE:START -->15 November 2026<!-- LAST_UPDATE:END --></sub>
+<sub>Automatically updated · <!-- LAST_UPDATE:START -->16 November 2026<!-- LAST_UPDATE:END --></sub>
 
 <br>
 
